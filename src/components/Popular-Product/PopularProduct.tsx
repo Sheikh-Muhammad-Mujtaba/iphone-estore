@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export default function PopularProduct() {
     return (
-        <div className="flex flex-row flex-wrap lg:flex-nowrap items-start p-0 w-full lg:max-w-[1500px] min-h-[640px]">
+        <div className="flex flex-row flex-wrap lg:flex-nowrap items-start p-0 w-full min-h-[640px]">
             {/* popular product */}
             <div className="flex flex-col items-start px-[20px] sm:px-[32px] pb-[56px] gap-[24px] isolate w-full md:w-[50vw] lg:w-[25vw]  h-[640px] bg-[#FFFFFF]">
                 <Image src={"/images/Popular Products.png"} alt='Popular Products' width={360} height={640} className="w-[360.06px] h-[327px]" />
