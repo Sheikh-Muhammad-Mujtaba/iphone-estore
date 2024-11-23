@@ -14,7 +14,7 @@ export default function NewArrivals() {
     const products = [
         {
           id: 1,
-          image: "/images/iPhone 14 Pro 3.png",
+          image: "/images/Iphone 14 pro 3.png",
           alt: "iPhone 14 Pro",
           description: "Apple iPhone 14 Pro Max 128GB Deep Purple",
           price: "$900",

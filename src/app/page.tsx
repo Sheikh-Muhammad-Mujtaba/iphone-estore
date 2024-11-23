@@ -10,13 +10,13 @@ import SummerSale from '@/components/BigSale/SummerSale';
 export default function page() {
   return (
     <>
-       <Banner />
+      <Banner />
       <TreandingProduct />
-     <Category />
-       <NewArrivals />
-    <PopularProduct />
-    <DiscountProduct />
-   <SummerSale />
+      <Category />
+      <NewArrivals />
+      <PopularProduct />
+      <DiscountProduct />
+      <SummerSale />
     </>
   )
 }
