@@ -71,8 +71,8 @@ export default function NewArrivals() {
       ];
 
     return (
-        <div className="flex flex-col items-start px-[10px] sm:px-[11.111vw] py-[56px] gap-[32px] w-full min-h-[1056px] bg-[#FFFFFF]">
-            <div className="flex flex-row items-center pl-[15px] sm:pl-0 p-0 gap-[20px] sm:gap-[32px] sm:max-w-[77.778vw] h-[32px]">
+        <div className="flex flex-col items-center py-[56px] gap-[32px] w-full min-h-[1056px] bg-[#FFFFFF]">
+            <div className="flex flex-row items-center pl-[15px] sm:pl-0 p-0 gap-[20px] sm:gap-[32px] w-[90vw] sm:w-[77.778vw] h-[32px]">
                 <Link
                     href="#l1"
                     id="l1"
@@ -111,7 +111,7 @@ export default function NewArrivals() {
 
             </div>
 
-            <div className="flex flex-row flex-wrap items-start justify-center p-0 gap-[16px] max-w-[1120px] min-h-[880px]">
+            <div className="flex flex-row flex-wrap items-start justify-center p-0 gap-[16px] w-[90vw] min-h-[880px]">
             {products.map((product) => (
         <div
           key={product.id}

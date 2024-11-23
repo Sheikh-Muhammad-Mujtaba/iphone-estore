@@ -4,9 +4,9 @@ import Image from "next/image";
 export default function Footer() {
     return (
         <div className="flex flex-col justify-center items-center md:items-start px-[10px] sm:px-[11.111vw] py-[104px] gap-[24px] w-full min-h-[504px] bg-[#000000]">
-            <div className="flex flex-row flex-wrap md:justify-between items-center md:items-start content-start p-0 gap-[113px] max-w-[1120px] min-h-[256px]">
+            <div className="flex flex-row flex-wrap md:justify-between items-center md:items-start content-start p-0 gap-[113px] md:gap-[55px] sm:w-[77.778vw] min-h-[256px]">
                 {/* logo */}
-                <div className="flex flex-col items-center md:items-start p-0 gap-[24px] max-w-[384px] h-[94.87px]">
+                <div className="flex flex-col items-center md:items-start p-0 gap-[24px] w-full md:max-w-[384px] h-[94.87px]">
                     <Image src={"/images/Logo.png"} alt='Logo' width={200} height={200}
                         className='flex flex-row items-center p-0 w-[65.4px] h-[22.87px] invert' />
                     <p className="max-w-[384px] h-[48px] font-medium text-[14px] leading-[170.5%] text-center md:text-start text-[#CFCFCF]">

@@ -3,13 +3,13 @@ import Image from 'next/image'
 
 export default function DiscountProduct() {
     return (
-        <div className="flex flex-col items-start  sm:px-[11.111vw] py-[80px] gap-[32px] w-full min-h-[656px] bg-[#FFFFFF]">
+        <div className="flex flex-col items-center py-[80px] gap-[32px] w-full min-h-[656px] bg-[#FFFFFF]">
+              
+                <h1 className="flex w-[95vw] sm:w-[82vw] h-[32px] sm:mx-[11.111vw] font-medium text-[24px] leading-[32px] text-left text-[#000000] px-[20px] sm:px-0">
+                    Discounts up to -50%
+                </h1>
 
-            <h1 className="flex w-[300px] h-[32px] font-medium text-[24px] leading-[32px] text-center text-[#000000] px-[20px] sm:px-0">
-                Discounts up to -50%
-            </h1>
-
-            <div className="flex flex-row flex-wrap items-start justify-center content-start p-0 gap-[16px] w-full sm:max-w-[1120px] min-h-[432px]">
+            <div className="flex flex-row flex-wrap items-center justify-center content-start p-0 gap-[16px] w-full xl:max-w-[85vw] min-h-[432px]">
 
 
                 {/* product 1 */}

@@ -3,8 +3,8 @@ import Image from "next/image";
 
 export default function Banner() {
     return (
-        <div className="flex flex-row flex-wrap justify-between items-center px-[30px] md:px-[60px] lg:px-[160px] py-0 gap-[24px 213px] w-full min-h-[632px] bg-[linear-gradient(90.7deg,_#211C24_0.64%,_#211C24_101%)]">
-            <div className="flex flex-col items-start mt-8 xl:mt-0 p-0 gap-[24px] w-[714px] md:min-w-[400px] h-[256px]">
+        <div className="flex flex-row flex-wrap justify-between items-center px-[30px] md:px-[60px] lg:px-[11.111vw] py-0 gap-[24px 213px] w-full min-h-[632px] bg-[linear-gradient(90.7deg,_#211C24_0.64%,_#211C24_101%)]">
+            <div className="flex flex-col items-start mt-8 xl:mt-0 p-0 gap-[24px] max-w-[714px] md:min-w-[400px] h-[256px]">
                 <h1 className="h-[32px] font-semibold text-[25px] leading-[32px] opacity-40 text-[#ffffff]">
                     Pro.Beyond.
                 </h1>

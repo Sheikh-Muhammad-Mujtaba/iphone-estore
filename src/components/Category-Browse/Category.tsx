@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Category() {
     return (
-        <div className="flex flex-col items-start px-[11.111vw] py-[80px] gap-[32px] w-full min-h-[352px] bg-[#FAFAFA]">
+        <div className="flex flex-col items-center py-[80px] gap-[32px] w-full min-h-[352px] bg-[#FAFAFA]">
             <div className="flex flex-row justify-between items-center p-0 w-[77.778vw] min-h-[32px]">
                 <h1 className=" w-[239px] font-medium text-[24px] leading-[32px] tracking-[0.01em] text-[#000000]">
                     Browse By Category
@@ -13,7 +13,7 @@ export default function Category() {
                 </svg>
             </div>
 
-            <div className="flex flex-row flex-wrap items-start justify-center p-0 gap-[32px] max-w-[1120px] min-h-[128px]">
+            <div className="flex flex-row flex-wrap xl:flex-nowrap items-start justify-center p-0 gap-[32px] max-w-[1120px] min-h-[128px]">
                 {/* Phones */}
                 <div className='flex flex-col justify-center items-center px-[52px] py-[24px] gap-[8px] w-[160px] min-w-[135px] h-[128px] bg-[#EDEDED] rounded-[15px] cursor-pointer'>
                     <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
